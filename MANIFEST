@@ -16,6 +16,7 @@ MANIFEST			This list of files
 META.yml
 model/test.mod
 model/test.txt
+model/train.sh
 ppport.h
 README
 t/00_compile.t
@@ -24,7 +25,6 @@ t/02_parse.t
 t/03_notag.t
 t/04_tagmax.t
 t/05_deftag.t
-t/06_write_model.t
 xs/KyTea.xs
 xs/typemap
 xt/01_podspell.t
