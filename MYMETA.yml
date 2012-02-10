@@ -5,6 +5,7 @@ author:
 build_requires:
   Devel::PPPort: 3.2
   ExtUtils::MakeMaker: 6.62
+  ExtUtils::ParseXS: 2.21
   Test::Base: 0
   Test::Exception: 0
   Test::More: 0.88
@@ -12,9 +13,8 @@ configure_requires:
   Devel::PPPort: 3.2
   ExtUtils::MakeMaker: 6.62
   ExtUtils::ParseXS: 2.21
-distribution_type: module
-dynamic_config: 1
-generated_by: 'Module::Install version 1.04'
+dynamic_config: 0
+generated_by: 'Module::Install version 1.04, CPAN::Meta::Converter version 2.112150'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -30,7 +30,7 @@ requires:
   Data::Recursive::Encode: 0.03
   Lingua::JA::Regular::Unicode: 0.04
   XSLoader: 0.02
-  perl: 5.8.1
+  perl: 5.008001
 resources:
   bugtracker: https://github.com/pawa-/Text-KyTea/issues
   license: http://dev.perl.org/licenses

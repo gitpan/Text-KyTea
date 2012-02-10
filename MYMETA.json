@@ -1,0 +1,64 @@
+{
+   "abstract" : "Perl wrapper for KyTea",
+   "author" : [
+      "pawa <pawapawa@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 1.04, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Text-KyTea",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "t",
+         "xt"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Devel::PPPort" : "3.2",
+            "ExtUtils::MakeMaker" : "6.62",
+            "ExtUtils::ParseXS" : "2.21",
+            "Test::Base" : 0,
+            "Test::Exception" : 0,
+            "Test::More" : "0.88"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Devel::PPPort" : "3.2",
+            "ExtUtils::MakeMaker" : "6.62",
+            "ExtUtils::ParseXS" : "2.21"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : 0,
+            "Data::Recursive::Encode" : "0.03",
+            "Lingua::JA::Regular::Unicode" : "0.04",
+            "XSLoader" : "0.02",
+            "perl" : "5.008001"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/pawa-/Text-KyTea/issues"
+      },
+      "license" : [
+         "http://dev.perl.org/licenses"
+      ],
+      "repository" : {
+         "url" : "https://github.com/pawa-/Text-KyTea"
+      }
+   },
+   "version" : "0.30"
+}

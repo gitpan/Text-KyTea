@@ -1,3 +1,4 @@
+use utf8;
 use strict;
 use warnings;
 use Test::Base;
@@ -7,6 +8,7 @@ use Text::KyTea;
 
 my $kytea = Text::KyTea->new(
     model  => './model/test.mod',
+    h2z    => 1,
     deftag => '(´・ω・｀)',
 );
 
@@ -60,5 +62,5 @@ __DATA__
 ===
 --- input:           XXYBA
 --- expected_surf:   XXYBA
---- expected_pron:   (´・ω・｀)(´・ω・｀)(´・ω・｀)(´・ω・｀)(´・ω・｀)
---- expected_p_of_s: (´・ω・｀) (´・ω・｀) (´・ω・｀) (´・ω・｀) (´・ω・｀)
+--- expected_pron:   (´・ω・｀)
+--- expected_p_of_s: (´・ω・｀)

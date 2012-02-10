@@ -11,7 +11,7 @@ use Text::KyTea;
 
 my $kytea = Text::KyTea->new(
     model => './model/test.mod',
-    h2z   => 0,
+    h2z   => 1,
 );
 
 run
@@ -49,20 +49,20 @@ sub split_results
 
 
 __DATA__
-===
---- input:           コーパスの文です。
---- expected_surf:   コーパスの文です。
---- expected_pron:   こーぱすのぶんです。
---- expected_p_of_s: 名詞 助詞 名詞 助動詞 語尾 補助記号
-
-===
---- input:           もうひとつの文です。
---- expected_surf:   もうひとつの文です。
---- expected_pron:   もうひとつのぶんです。
---- expected_p_of_s: 副詞 名詞 接尾辞 助詞 名詞 助動詞 語尾 補助記号
-
-===
+=== hankaku
 --- input:           2012
 --- expected_surf:   2012
---- expected_pron:   UNK
---- expected_p_of_s: UNK
+--- expected_pron:   にせんじゅうに
+--- expected_p_of_s: 名詞
+
+=== zenkaku
+--- input:           ２０１２
+--- expected_surf:   ２０１２
+--- expected_pron:   にせんじゅうに
+--- expected_p_of_s: 名詞
+
+=== hanzen
+--- input:           ２01２
+--- expected_surf:   ２01２
+--- expected_pron:   にせんじゅうに
+--- expected_p_of_s: 名詞
