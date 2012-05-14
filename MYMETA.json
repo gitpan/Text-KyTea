@@ -4,7 +4,7 @@
       "pawa <pawapawa@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Install version 1.04, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "perl_5"
    ],
@@ -24,7 +24,7 @@
       "build" : {
          "requires" : {
             "Devel::PPPort" : "3.2",
-            "ExtUtils::MakeMaker" : "6.62",
+            "ExtUtils::MakeMaker" : "6.59",
             "ExtUtils::ParseXS" : "2.21",
             "Test::Base" : 0,
             "Test::Exception" : 0,
@@ -34,7 +34,7 @@
       "configure" : {
          "requires" : {
             "Devel::PPPort" : "3.2",
-            "ExtUtils::MakeMaker" : "6.62",
+            "ExtUtils::MakeMaker" : "6.59",
             "ExtUtils::ParseXS" : "2.21"
          }
       },
@@ -60,5 +60,5 @@
          "url" : "https://github.com/pawa-/Text-KyTea"
       }
    },
-   "version" : "0.30"
+   "version" : "0.31"
 }
