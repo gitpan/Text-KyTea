@@ -7,7 +7,7 @@ build_requires:
   ExtUtils::MakeMaker: 6.59
   ExtUtils::ParseXS: 2.21
   Test::Base: 0
-  Test::Exception: 0
+  Test::Fatal: 0
   Test::More: 0.88
 configure_requires:
   Devel::PPPort: 3.2
@@ -27,12 +27,10 @@ no_index:
     - xt
 requires:
   Carp: 0
-  Data::Recursive::Encode: 0.03
-  Lingua::JA::Regular::Unicode: 0.04
   XSLoader: 0.02
   perl: 5.008001
 resources:
   bugtracker: https://github.com/pawa-/Text-KyTea/issues
   license: http://dev.perl.org/licenses
   repository: https://github.com/pawa-/Text-KyTea
-version: 0.31
+version: 0.40
