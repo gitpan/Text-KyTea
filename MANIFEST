@@ -16,8 +16,6 @@ MANIFEST			This list of files
 META.yml
 model/test.mod
 model/test.txt
-MYMETA.json
-MYMETA.yml
 ppport.h
 README
 t/00_compile.t

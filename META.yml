@@ -3,12 +3,14 @@ abstract: 'Perl wrapper for KyTea'
 author:
   - 'pawa <pawapawa@cpan.org>'
 build_requires:
+  Devel::CheckLib: 0.4
   Devel::PPPort: 3.2
   ExtUtils::MakeMaker: 6.59
   Test::Base: 0
   Test::Fatal: 0
   Test::More: 0.88
 configure_requires:
+  Devel::CheckLib: 0.4
   Devel::PPPort: 3.2
   ExtUtils::MakeMaker: 6.59
   ExtUtils::ParseXS: 2.21
@@ -33,4 +35,4 @@ resources:
   bugtracker: https://github.com/pawa-/Text-KyTea/issues
   license: http://dev.perl.org/licenses
   repository: https://github.com/pawa-/Text-KyTea
-version: 0.40
+version: 0.41
