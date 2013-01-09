@@ -21,10 +21,10 @@ README
 t/00_compile.t
 t/01_basic.t
 t/02_parse.t
+t/03_pron.t
 t/10_notag.t
 t/11_tagmax.t
 t/12_deftag.t
-t/20_exception.t
 xs/KyTea.xs
 xs/typemap
 xt/01_podspell.t
