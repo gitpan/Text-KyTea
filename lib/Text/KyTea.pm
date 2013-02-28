@@ -6,7 +6,7 @@ use warnings;
 
 use Carp ();
 
-our $VERSION = '0.43';
+our $VERSION = '0.44';
 
 require XSLoader;
 XSLoader::load(__PACKAGE__, $VERSION);
@@ -152,7 +152,7 @@ This is the mere shortcut method.
 =head2 $kytea->read_model($path)
 
 Reads the given model file.
-The model file should be read by new(model => $path) method.
+Model files should be read by new(model => $path) method.
 
 Model files are available at L<http://www.phontron.com/kytea/model.html>.
 
